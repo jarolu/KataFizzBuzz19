@@ -15,6 +15,9 @@ public class FizzBuzz {
       if (i%3==0 && i%5==0) return "FizzBuzz";
       if(i%3 == 0) return "Fizz";
       if (i%5 == 0) return "Buzz";
+      String cadena = i + "";
+      if (cadena.contains("5"))
+          return "Buzz";
       return i+"";
     }
     
